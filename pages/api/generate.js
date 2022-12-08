@@ -19,7 +19,7 @@ export default async function (req, res) {
 function generatePrompt(inputPrompt) {
   const capitalizedInputPrompt =
     inputPrompt[0].toUpperCase() + inputPrompt.slice(1).toLowerCase();
-  return `Write me feedback about this situation as a friendly ghost would do, make metaphors to the otherworldly and being a ghost and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.`;
+  return `Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts, make metaphors to the otherworldly and being a ghost and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.`;
 
 //   return `Suggest three names for an animal that is a superhero.
 //
