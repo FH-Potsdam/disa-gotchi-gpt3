@@ -2,6 +2,7 @@
 
 Note: Top = newest, bottom = oldest
 
+
 ## User input examples for testing
 
 1. I was invited to a birthday party but I feel insecure because I don't know anybody. So I don't know if I will go.
@@ -11,45 +12,45 @@ Note: Top = newest, bottom = oldest
 3. I went to the birthday party and I feel bad now. I was very quiet and didn't talk very much. Everyone must think I'm weird.
 
 
-## TO DO
+## Next steps / TO DO
 
-Make more references to the anxiety:
+**Make more specific references to anxiety**
 - Reference possible negative thoughts, what could go wrong.
+- But avoid a long query like before: make the prompt more direct
 
-Add the otherworldly:
-- Maybe go back to having a name in the prompt
-- Too long query! Make it more direct and reference the being a ghost. Metaphors.
+**Give specific advice**
+- Advice on what do do? Strategies in steps?
+
+**Make it more provocative**
+- "Provokativer Ansatz": add some humour or ironical references about negative thoughts or the described situation.
+- Add provocative or challenging questions (e.g. in the end)?
+
+**Improve the otherworldly**
 - You are a ghost and come from another dimension.
-- Write it as you would be a ghost.
-- You write as if you would be a ghost, you sound mysterious and reference spooky things.
-- as a ghost you know how it is to feel weird and strange.
-- Since you are a ghost, you write metaphors about being a ghost.
+- Metaphors: should they impersonate me (the user) as a ghost?
+- "You sound mysterious and reference spooky things"
+- "as a ghost you know how it is to feel weird and strange"
 
-Make it more provocative:
-- Add some humour or irony on negative thoughts or the situation
-– Add provocative or challenging questions?
-
-Add unexpectedness:
-- Make it sound different each time. Not always the same type of answer.
+**Return more precise and diverse answers. Add unexpectedness!**
+- Now it's repetitive: Make it sound different each time. Not always the same type of answer.
 - Sometimes metaphorical, sometimes joke, sometimes... what else?
+- **Idea:** instead of giving the options as text in the prompt, create a promt array with different prompts with different characteristics/personalities. Which prompt to use would be then randomly chosen by code. Interesting for testing purposes would be to create a simple interface where users can select different answer styles.
 
 
 ## PROMPT HISTORY
 
 ### 08.12.2022 - C (Last version)
 
-What has been done?
-– Empathy to anxiety
+Empathy to anxiety was added. References to possible negative thoughts.
 
 ```
-Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts, make metaphors to the otherworldly and being a ghost and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.
+Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts, make metaphors to the otherworldly and being a ghost, and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.
 ```
 
 ### 08.12.2022 - B (Last version)
 
-What has been done?
-– Make it shorter
-– Add references to being a ghost and suggesting metaphors
+– Prompt text was rephrased to be more direct and shorter
+– References to being a ghost were added, suggesting metaphors
 
 ```
 Write me feedback about this situation as a friendly ghost would do, make metaphors to the otherworldly and being a ghost and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.
@@ -57,8 +58,7 @@ Write me feedback about this situation as a friendly ghost would do, make metaph
 
 ### 08.12.2022 - A
 
-What has been done?
-– Added references to being a ghost.
+References to being a ghost were added.
 
 ```
 You are a ghost and come from another dimension. You are also a part of me that is connected with my own anxiety and fear of failing and feel ashamed. You are my inner critic.
@@ -74,8 +74,7 @@ Give me feedback on this: ${capitalizedInputPrompt}.
 
 ### 07.12.2022
 
-What has been done?
-– I formulate it like an order
+The prompt was rephrased to be an order.
 
 ```
 You are a part of me that is connected with my own anxiety and fear of failing and feel ashamed. You are my inner critic.
