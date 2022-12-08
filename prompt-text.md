@@ -2,7 +2,19 @@
 
 Note: Top = newest, bottom = oldest
 
+## User input examples
+
+1. I was invited to a birthday party but I feel insecure because I don't know anybody. So I don't know if I will go.
+
+2. I've just met this group of people at the party and they seem nice, but at the same time I feel so insecure about small talk.
+
+3. I was invited to a birthday party but I feel insecure because I don't know anybody. So I don't know if I will go.
+
+
 ## TO DO
+
+Make more references to the anxiety:
+- Reference possible negative thoughts, what could go wrong.
 
 Add the otherworldly:
 - Maybe go back to having a name in the prompt
