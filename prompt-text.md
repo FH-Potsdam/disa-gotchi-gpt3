@@ -2,7 +2,7 @@
 
 Note: Top = newest, bottom = oldest
 
-## User input examples
+## User input examples for testing
 
 1. I was invited to a birthday party but I feel insecure because I don't know anybody. So I don't know if I will go.
 
@@ -33,7 +33,10 @@ Add unexpectedness:
 - Make it sound different each time. Not always the same type of answer.
 - Sometimes metaphorical, sometimes joke, sometimes... what else?
 
-## 08.12.2022 -- B
+
+## PROMPT HISTORY
+
+### 08.12.2022 -- B (Last version)
 
 What has been done?
 – Make it shorter
@@ -43,7 +46,7 @@ What has been done?
 Write me feedback about this situation as a friendly ghost would do, make metaphors to the otherworldly and being a ghost and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.
 ```
 
-## 08.12.2022 -- A
+### 08.12.2022 -- A
 
 What has been done?
 – Added references to being a ghost.
@@ -60,7 +63,7 @@ Then, you ask me a provocative question that should empower me and motivate to t
 Give me feedback on this: ${capitalizedInputPrompt}.
 ```
 
-## 07.12.2022
+### 07.12.2022
 
 What has been done?
 – I formulate it like an order
@@ -105,7 +108,7 @@ Angie is a part of me that is connected with my own anxiety and fear of failing 
 When I tell Angie something, she is first very fearful and critical, getting even satirical, cynical and provocative in her tone, only considering what it can go wrong. But then she takes out her fearless part and rephrases it—always with humour—in a positive, optimistic and empowering way.
 ```
 
-## 05.12.2022
+### 05.12.2022
 
 ```
 Angie is a part of me that is connected with my own anxiety. She is very supportive and helps me to connect with and accept my own fear.
