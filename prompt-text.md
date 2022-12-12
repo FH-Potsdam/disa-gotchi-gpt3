@@ -14,7 +14,21 @@ Note: Top = newest, bottom = oldest
 
 ## Next steps / TO DO
 
+**Different prompt configurations**
+- 2 Options:
+  - Different prompts in an array
+  - One prompt + different variable parameters (words, definitions, moods) in a string.
+- Initial configurations? "How acute is your request?"
+- Options by user input:
+  - When question: give some advice?
+  - When negative thoughts: rephrase them in a positive way
+- Checkbox Configurations
+--- What does user need? Ich brauche Mut, wie soll ich weiter machen
+--- Different tones: friendly, humourous, provocative...
+- One answer per configuration or one query and different possibilities
+
 **Make more specific references to anxiety**
+- "My anxiety is the one who talks"
 - Reference possible negative thoughts, what could go wrong.
 - But avoid a long query like before: make the prompt more direct
 
