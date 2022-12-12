@@ -15,16 +15,26 @@ Note: Top = newest, bottom = oldest
 ## Next steps / TO DO
 
 **Different prompt configurations**
+
 - 2 Options:
   - Different prompts in an array
   - One prompt + different variable parameters (words, definitions, moods) in a string.
+
 - Initial configurations? "How acute is your request?"
+
 - Options by user input:
-  - When question: give some advice?
-  - When negative thoughts: rephrase them in a positive way
+  - When question: give some advice / tipps?
+  - When negative thoughts: rephrase them in a positive way > positive thoughts.
+
+- "Levels of unexpectedness"
+  - Ghost metaphors
+  - Talk as my anxiety.
+  - Challenging question in the end that engages reflection?
+
 - Checkbox Configurations
---- What does user need? Ich brauche Mut, wie soll ich weiter machen
---- Different tones: friendly, humourous, provocative...
+  - What does user need? Different modes: "Ich brauche Mut", wie soll ich weiter machen
+  - Different tones: empathy with situation, ironic/humourous, provocative...
+
 - One answer per configuration or one query and different possibilities
 
 **Make more specific references to anxiety**
