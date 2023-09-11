@@ -1,6 +1,10 @@
 # disa-gotchi-gpt3
 
- Playground for a virtual companion built on GPT-3
+Playground for experimenting a virtual companion that provides assistance in anxiety situations – built on GPT-3.
+
+The prototype is a simple web interface that allows the interaction with the companion through text.
+
+The virtual companion is called Boo and has the personality of a friendly ghost. Through a simple web interface users can share with Boo some thoughts or describe a situation. Then Boo, acting like a ghostly councelor, will reframe that thoughts in positive ones with an empowering, friendly voice.
 
  ## Implementation
 
