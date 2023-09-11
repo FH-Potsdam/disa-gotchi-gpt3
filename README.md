@@ -4,7 +4,10 @@ Playground for experimenting a virtual companion that provides assistance in anx
 
 The prototype is a simple web interface that allows the interaction with the companion through text.
 
-The virtual companion is called Boo and has the personality of a friendly ghost. Through a simple web interface users can share with Boo some thoughts or describe a situation. Then Boo, acting like a ghostly councelor, will reframe that thoughts in positive ones with an empowering, friendly voice.
+## Functioning 
+The virtual companion is called Boo and has the personality of a friendly ghost. Through the interface users can share with Boo some thoughts or describe a situation. Then Boo, acting like a ghostly councelor, will reframe that thoughts in positive ones with an empowering, friendly voice.
+
+<img width="694" alt="Boo_Interface" src="https://github.com/FH-Potsdam/disa-gotchi-gpt3/assets/859148/837a63e8-2cd5-4cbc-a5c2-51beb6a7878e">
 
  ## Implementation
 
