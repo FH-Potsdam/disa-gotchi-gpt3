@@ -1,10 +1,15 @@
 # disa-gotchi-gpt3
 
-Playground for a virtual companion that provides assistance in anxiety situations – built on GPT-3. 
+Playground for experimenting with the characteristics of a virtual companion to provide assistance in anxiety situations – built on GPT-3. 
 The prototype is a simple web interface that allows the interaction with the companion through text.
 
-## Functioning 
-The virtual companion is called Boo and has the personality of a friendly ghost. Through the interface users can share with Boo some thoughts or describe a situation. Then Boo, acting like a ghostly councelor, will reframe that thoughts in positive ones with an empowering, friendly voice.
+Developed at the University of Applied Sciences Potsdam as part of the research project DISA (https://disa.fh-potsdam.de/), funded by the German Federal Ministry of Education and Research (BMBF).
+
+Important note: in this state of development, the prototype should be used for research purposes only. Do not use it in real-life situations.
+
+## Functioning
+
+The virtual companion is called Boo and has the personality of a friendly ghost. The interface allows sharing thoughts or situations. Then Boo, acting like a ghostly councelor, will reframe that thoughts in positive ones with an empowering, friendly voice.
 
 <img width="694" alt="Boo_Interface" src="https://github.com/FH-Potsdam/disa-gotchi-gpt3/assets/859148/837a63e8-2cd5-4cbc-a5c2-51beb6a7878e">
 
