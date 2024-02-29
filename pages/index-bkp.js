@@ -38,7 +38,41 @@ export default function Home() {
             value={inputPrompt}
             onChange={(e) => setInputPrompt(e.target.value)}
           />
-
+          <div className={styles.config}>
+            <div>
+              <strong>Who is Boo?: </strong>
+              <label>
+                <input type="radio" />
+                A friendly ghost
+              </label>
+              <label>
+                <input type="radio" />
+                My own anxiety as a partner
+              </label>
+            </div>
+            <div>
+              <strong>Tone: </strong>
+              <label>
+                <input type="checkbox" />
+                Humorous
+              </label>
+              <label>
+                <input type="checkbox" />
+                Provocative
+              </label>
+            </div>
+            <div>
+              <strong>Need: </strong>
+              <label>
+                <input type="checkbox" />
+                I need some encouragement
+              </label>
+              <label>
+                <input type="checkbox" />
+                I need some advice
+              </label>
+            </div>
+          </div>
           <input type="submit" value="Share it with Boo" />
         </form>
         <div className={styles.result}>{result}</div>

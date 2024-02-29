@@ -7,12 +7,28 @@ Note: Top = newest, bottom = oldest
 
 1. I was invited to a birthday party but I feel insecure because I don't know anybody. So I don't know if I will go.
 
-2. I've just met this group of people at the party and they seem nice, but at the same time I feel so insecure about small talk.
+  2. I'm not sure about answering this phone call. I know the person who's calling but not so much, and I don't like talking on the phone...
 
-3. I went to the birthday party and I feel bad now. I was very quiet and didn't talk very much. Everyone must think I'm weird.
+  3. I came all the way to my friend's place but I'm still not sure about going to their birthday party. I don't know anybody!
+
+4. I've just met this group of people at the party and they seem nice, but at the same time I feel so insecure about small talk.
+
+5. I cannot sleep, tonight I went to the birthday party and I feel bad now-. I was very quiet and didn't talk very much. What if I said something wrong? Everyone must think I'm weird.
+
+  I feel like a fool! I was very quiet at the party and didn't talk very much. Probably everyone will think I'm weird. On the other hand, what if I said something wrong? What will everybody think about me?
 
 
 ## Next steps / TO DO
+
+
+**Aktuelle Prompts**
+
+- Weniger Euphorie (too "Empowering"). Lieber Kleinschrittig.
+- rephrase them in a positive way > positive thoughts.
+
+**Prompts and stepping out the comfort zone**
+
+- It seems that when adding "the otherworldly" to the concept (or maybe just some parameters were removed from the prompt) the Gotchi stopped encouraging users to step out their comfort zones ("what could go wrong?", "you can do this!"). >>> Check prompt from 07.12.2022.
 
 **Different prompt configurations**
 
@@ -61,17 +77,59 @@ Note: Top = newest, bottom = oldest
 - **Idea:** instead of giving the options as text in the prompt, create a promt array with different prompts with different characteristics/personalities. Which prompt to use would be then randomly chosen by code. Interesting for testing purposes would be to create a simple interface where users can select different answer styles.
 
 
+"Ah, small talk. It sure can be intimidating, can't it? Especially with a group of new people. I get it - I mean, there's a lot at stake! You want to make a good impression, but there's no real playbook. It can be hard to know what to say and how to say it. But you know what? You can do it! Even if you don't ace it, you can still make a good impression. Think of it like this - small talk is like jumping into a swimming pool. You might not know exactly how deep it is, but you can still take the plunge. Just take it slow and be yourself - you'll be surprised at how much you can learn from others when you open up and share your own thoughts. Good luck!"
+
 ## PROMPT HISTORY
 
-### 08.12.2022 - C (Last version)
+### 14.12.2022 – Idea for making the response more varied.
+
+${promptMetaphors} = This variable comes sometimes empty, sometimes combines values from an array of different metaphors (e.g. the otherworldly, anxiety as a partner or superpower, etc.). This should keep the responses more varied and less repetitive.
+
+```
+Write me feedback about this anxiety-triggering situation as ${promptBeing}, being empathetic with my feelings and negative thoughts, ${promptMetaphors} and ${promptTone}. Give me feedback on this: ${capitalizedInputPrompt}
+```
+
+A variable could be considered that gives the length of the response (e.g. number of sentences).
+
+
+### 14.12.2022 – Add the "anxiety as a partner" to the ghostly companion – LAST
+
+```
+Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts. Make metaphors to the otherworldly and being a ghost, and also an analogy for my anxiety as a partner and as a superpower I can use to overcome difficult situations. Be funny and ironical but empowering at the same time. Give me feedback on this: ${capitalizedInputPrompt}.
+```
+
+```
+Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts. Make metaphors to the otherworldly and being a ghost, and also to my anxiety as a partner and as a superpower I can use to overcome difficult situations. Be funny and ironical but empowering at the same time. Give me feedback on this: ${capitalizedInputPrompt}.
+```
+
+### 14.12.2022 – Make prompt configurable
+
+Some tests to make the prompt generic with some "configurable" parts were done. For example, I changed the previous prompt to call your own anxiety and not a ghost. It could be like this:
+
+```
+v1
+Write me feedback about this anxiety-triggering situation as if you were my own anxiety and were talking to me but in a positive way, being empathetic with my feelings and negative thoughts, make metaphors to having you (my anxiety) as a partner, and be funny and ironical but empowering at the same time. And don't put pressure on me! Give me feedback on this: ${capitalizedInputPrompt}.
+```
+```
+v2
+Write me feedback about this anxiety-triggering situation as if you were my own anxiety, being empathetic with my feelings and negative thoughts, make metaphors to having you (my anxiety) as a partner and as a superpower I can use to overcome difficult situations, and be funny and ironical but empowering at the same time. And don't put pressure on me! Give me feedback on this: ${capitalizedInputPrompt}.
+```
+
+Then, add variables to the prompt to make it configurable:
+
+```
+Write me feedback about this anxiety-triggering situation as ${promptBeing}, being empathetic with my feelings and negative thoughts, make metaphors to ${promptMetaphors}, and ${promptTone}. Give me feedback on this:  ${capitalizedInputPrompt}.
+```
+
+### 08.12.2022 - C
 
 Empathy to anxiety was added. References to possible negative thoughts.
 
 ```
-Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts, make metaphors to the otherworldly and being a ghost, and be funny and ironical but empowering at the same time: Give me feedback on this: ${capitalizedInputPrompt}.
+Write me feedback about this anxiety-triggering situation as a friendly ghost would do, being empathetic with my anxiety and negative thoughts, make metaphors to the otherworldly and being a ghost, and be funny and ironical but empowering at the same time. Give me feedback on this: ${capitalizedInputPrompt}.
 ```
 
-### 08.12.2022 - B (Last version)
+### 08.12.2022 - B
 
 – Prompt text was rephrased to be more direct and shorter
 – References to being a ghost were added, suggesting metaphors
@@ -98,7 +156,7 @@ Give me feedback on this: ${capitalizedInputPrompt}.
 
 ### 07.12.2022
 
-The prompt was rephrased to be an order.
+The prompt was rephrased to be an order (this gives a direct answer)
 
 ```
 You are a part of me that is connected with my own anxiety and fear of failing and feel ashamed. You are my inner critic.
